@@ -1,12 +1,16 @@
 import React from "react";
-import { Typography, Button, Box } from "@mui/material";
-import i18n from './i18n'
+import i18n from "./i18n";
+import HomeScreen from "./screens/HomeScreen";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeScreen />,
+  },
+]);
 
 export default function App() {
-  return (
-    <Box>
-    <Typography variant="h1">Hello</Typography>
-    <Button variant="contained">Test Button</Button>
-    </Box>
-  );
+  return <RouterProvider router={router} />;
 }
