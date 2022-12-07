@@ -1,0 +1,18 @@
+{
+    "translation": {
+        "HOME_SCREEN": "Home Screen",
+        "SUMMARY": "Summary",
+        "CHECKING_ACCOUNT": "Checking Account",
+        "ASSETS": "Assets",
+        "CREDIT_POINTS": "Credit Points",
+        "FINANCE_SCORE": "Finance Score",
+        "NOTIFICATION": "Notification",
+        "LOG_OUT": "Log Out",
+        "SAMPLE_TEXT": "Sample Text",
+        "DATES": "Dates",
+        "CATEGORIES": "Categories",
+        "CHECKING_ACCOUNT_HEADER": "Checking Balance",
+        "FILTER_TITLE": "Filter Results",
+        "FILTER_BUTTON_TITLE": "All Transactions"
+    }
+}

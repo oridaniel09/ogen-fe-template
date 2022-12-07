@@ -1,0 +1,18 @@
+{
+    "translation": {
+        "HOME_SCREEN": "מסך הבית",
+        "SUMMARY": "סיכום",
+        "CHECKING_ACCOUNT": "עובר ושב",
+        "ASSETS": "נכסים והתחייבויות",
+        "CREDIT_POINTS": "דירוג אשראי",
+        "FINANCE_SCORE": "ציון פיננסי",
+        "NOTIFICATION": "התראות",
+        "LOG_OUT": "התנתקות",
+        "SAMPLE_TEXT": "טקסט דוגמא",
+        "DATES": "תאריכים",
+        "CATEGORIES": "קטגוריות",
+        "CHECKING_ACCOUNT_HEADER": "מאזן חודשי",
+        "FILTER_TITLE": "סינון תנועות",
+        "FILTER_BUTTON_TITLE": "כל התנועות"
+    }
+}
