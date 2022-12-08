@@ -9,10 +9,10 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <React.StrictMode>
-    <ThemeProvider theme={theme}>
+  <ThemeProvider theme={theme}>
+    <React.StrictMode>
       <CssBaseline />
       <App />
-    </ThemeProvider>
-  </React.StrictMode>
+    </React.StrictMode>
+  </ThemeProvider>
 );
