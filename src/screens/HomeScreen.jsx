@@ -7,7 +7,7 @@ const HomeScreen = () => {
 
   return (
     <div>
-      <Typography variant="h1">Home</Typography>
+      Home Screen
     </div>
   );
 };

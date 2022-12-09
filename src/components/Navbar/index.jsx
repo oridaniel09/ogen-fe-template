@@ -7,6 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import Drawer from "./Drawer";
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = (props) => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -20,10 +21,7 @@ const Navbar = (props) => {
               setOpenDrawer(true);
             }}
           >
-            <Typography color="#FFF" variant="body">
-              Press Here
-            </Typography>
-            {/* <MenuIcon /> */}
+            <MenuIcon color="text"/>
           </Button>
         </Toolbar>
       </MuiAppBar>
