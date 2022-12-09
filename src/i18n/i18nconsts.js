@@ -1,0 +1,16 @@
+export const HOME_SCREEN = "HOME_SCREEN";
+export const SUMMARY = "SUMMARY";
+export const CHECKING_ACCOUNT = "CHECKING_ACCOUNT";
+export const ASSETS = "ASSETS";
+export const CREDIT_POINTS = "CREDIT_POINTS";
+export const FINANCE_SCORE = "FINANCE_SCORE";
+export const NOTIFICATION = "NOTIFICATION";
+export const FINANCIAL_HELPER = "FINANCIAL_HELPER";
+export const SETTINGS = "SETTINGS";
+export const LOG_OUT = "LOG_OUT";
+export const SAMPLE_TEXT = "SAMPLE_TEXT";
+export const DATES = "DATES";
+export const CATEGORIES = "CATEGORIES";
+export const CHECKING_ACCOUNT_HEADER = "CHECKING_ACCOUNT_HEADER";
+export const FILTER_TITLE = "FILTER_TITLE";
+export const FILTER_BUTTON_TITLE = "FILTER_BUTTON_TITLE";

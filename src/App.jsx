@@ -1,22 +1,17 @@
 import React from "react";
-import i18n from "./i18n";
+import { useRoutes } from "react-router-dom";
+import { Container } from "@mui/material";
+import Navbar from "./components/navbar";
 import router from "./router";
-import { RouterProvider } from "react-router-dom";
-import rtlPlugin from "stylis-plugin-rtl";
-import { CacheProvider } from "@emotion/react";
-import createCache from "@emotion/cache";
-import { prefixer } from "stylis";
-
-// Create rtl cache
-const cacheRtl = createCache({
-  key: 'muirtl',
-  stylisPlugins: [prefixer, rtlPlugin],
-});
 
 export default function App() {
+  const element = useRoutes(router);
+
   return (
-    <CacheProvider value={cacheRtl}>
-      <RouterProvider router={router} />
-    </CacheProvider>
+    <>
+      <Navbar>
+        <Container maxWidth="0">{element}</Container>
+      </Navbar>
+    </>
   );
 }
