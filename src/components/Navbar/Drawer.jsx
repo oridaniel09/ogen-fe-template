@@ -10,9 +10,11 @@ import {
   Typography,
 } from "@mui/material";
 import router from "../../router";
+import { useTranslation } from 'react-i18next';
 
 const Drawer = ({ openDrawer, setOpenDrawer }) => {
-  console.log(openDrawer);
+
+  const { t } = useTranslation();
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -48,7 +50,7 @@ const Drawer = ({ openDrawer, setOpenDrawer }) => {
               <ListItem key={index} disablePadding>
                 <Link to={element.path}>
                   <ListItemButton onClick={() => { setOpenDrawer(false) }} >
-                    <ListItemText primary={element.path} />
+                    <ListItemText primary={t(element.title)} />
                   </ListItemButton>
                 </Link>
               </ListItem>
